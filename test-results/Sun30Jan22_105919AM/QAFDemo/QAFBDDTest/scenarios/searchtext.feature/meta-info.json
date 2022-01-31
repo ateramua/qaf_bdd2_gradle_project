@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Text box validation",
+        "groups": [],
+        "lineNo": 3,
+        "name": "Validate google search text box",
+        "reference": "scenarios/searchtext.feature",
+        "resultFileName": "ValidateGoogleSearchTextBox",
+        "sign": "scenarios.searchtext.feature.Validate google search text box()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1643558359539,
+      "duration": 85,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

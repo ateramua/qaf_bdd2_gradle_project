@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAF Demo" parallel="methods" verbose="0">
+<test name="QAF-BDD-Test">
+  <parameter name="step.provider.pkg" value="com.qmetry.qaf.automation.steps" />
+  <parameter name="scenario.file.loc" value="src/test/resources.searchtext.feature" />
+  <parameter name="env.resources" value="resources/application.properties;resources/env1;resources/env2" />
+  <classes>
+     <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+  </classes>
+</test>
+</suite>
+
+<!--com.qmetry.qaf.automation.step.client.text.BDDTestFactory2-->
+
+<!-- com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory -->
+
+<!-- com.qmetry.qaf.automation.step.client.text.BDDTestFactory -->

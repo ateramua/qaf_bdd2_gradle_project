@@ -1,0 +1,40 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "scenarios/searchtext.feature"
+  ],
+  "envInfo": {
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "1",
+      "qaf-Build-Time": "20-Oct-2021 20:49:26",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "resources": [
+        "resources/application.properties",
+        "resources/env1",
+        "resources/env2"
+      ],
+      "scenario.file.loc": "scenarios/searchtext.feature",
+      "baseurl": "https://www.google.com/",
+      "env.resources": "resources/application.properties;resources/env1;resources/env2",
+      "step.provider.pkg": "com.qmetry.qaf.automation.steps"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "16.0.1",
+      "os.arch": "amd64",
+      "host": "DESKTOP-I6NS3SM",
+      "os.name": "Windows 10",
+      "user.name": "abdit",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1643556075817,
+  "endTime": 1643556075909
+}
